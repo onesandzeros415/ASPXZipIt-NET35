@@ -7,7 +7,6 @@ eventlog.txt
 ASPXZipIt.Publish.xml
 *.pubxml
 *.pdb
-ASPXZipIt-NET35.dll
 
 *.pydevproject
 .project
