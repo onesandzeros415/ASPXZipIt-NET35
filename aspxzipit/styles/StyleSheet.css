@@ -66,7 +66,9 @@ input
     margin-left: 10px;
     height: 28px;
 }
-
+.PassWD {
+    display: none; 
+}
 .hidden
 {
     display: none;
@@ -147,8 +149,6 @@ h1
     font-size: 28px;
     margin-bottom: 10px;
 }
-
-
 .tabs
 {
     list-style: none;

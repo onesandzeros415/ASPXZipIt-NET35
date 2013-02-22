@@ -69,7 +69,7 @@
             <br />
             <br />
             <center>
-                <img id="imgProgress" runat="server" src="/aspxzipit/images/Updating.gif" width="50" height="50" />
+                <img id="imgProgress" runat="server" src="/aspxzipit/images/progress.gif" width="147" height="25" />
             </center>
             <asp:Label ID="lblResult" runat="server" Visible="false" Font-Bold="true" />
             <br />

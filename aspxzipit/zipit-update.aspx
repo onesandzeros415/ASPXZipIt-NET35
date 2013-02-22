@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="True" CodeBehind="ResultPage.aspx.cs" Inherits="ASPXZipIt.ResultPage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="True" CodeBehind="zipit-update.aspx.cs" Inherits="ASPXZipIt.Update" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
@@ -59,20 +59,9 @@
         <div class="wrapper">
             <br />
             <br />
-            <asp:Label ID="lblProcessing" runat="server" Text="We are processing your request. Please don't close this window until complete." />
-            <br />
-            <br />
             <center>
-                <img id="imgProgress" runat="server" src="/aspxzipit/images/progress.gif" width="147" height="25" />
-            </center>
-            <asp:Label ID="lblResult" runat="server" Visible="false" Font-Bold="true" />
-            <br />
-            <asp:Label runat="server" ID="lblInfo" ForeColor="Red" Text="" />
-            <br />
-            <br />
-            <center>
-                <asp:Button ID="btnClose" runat="server" Visible="false" Text="Close" OnClick="btngoback_Click"
-                    CssClass="buttonCss" />
+                ZipIt-Update is processing......you will be redirected when complete. 
+                <br />
             </center>
         </div>
     </form>

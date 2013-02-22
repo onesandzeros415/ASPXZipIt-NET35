@@ -61,6 +61,7 @@
                 <li><a href="default.aspx" onfocus="this.blur();">Files</a></li>
                 <li><a href="zipit-db.aspx" onfocus="this.blur();">Databases</a></li>
                 <li class="active"><a href="zipit-logs.aspx" onfocus="this.blur();">Logs</a></li>
+                <li><a href="zipit-settings.aspx" onfocus="this.blur();">Settings</a></li>
             </ul>
         </center>
         <div class="wrapper">
@@ -69,6 +70,9 @@
                     ASPXZipit Backup Utility
                 </div>
                 <h2>ASPXZipIt Event Log Viewer</h2>
+                <br />
+                <asp:LoginStatus ID="LoginStatus1" runat="server" />
+                <br />
                 <br />
             </center>
             <center>
@@ -85,7 +89,7 @@
             <br />
             <br />
             <center>
-                <font size="1em">ASPXZipit Backup provided by <a href="https://github.com/onesandzeros415/ASPXZipIt"
+                <font size="1em">ASPXZipit Backup provided by <a href="http://onesandzeros415.github.com/ASPXZipIt-NET35/"
                     target="_blank">Matthew Costello</a></font>
             </center>
         </div>
