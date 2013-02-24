@@ -34,7 +34,6 @@
                 <br />
                 <asp:LoginStatus ID="LoginStatus1" runat="server" />
                 <br />
-
             </center>
             <center>
                 <h1>CloudFiles API Information:
