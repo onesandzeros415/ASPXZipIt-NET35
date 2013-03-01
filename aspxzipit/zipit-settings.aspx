@@ -167,12 +167,6 @@
             <asp:Button CssClass="button" ID="Button2" runat="server" Text="Update Impersonation" OnClientClick="return confirm('Are you sure you wish to update your Impersonation credentials?');" OnClick="ChangeImpersonation_Click" Width="150px" />
             <br />
             <br />
-            <asp:Button CssClass="button" ID="Button4" runat="server" Text="Default Impersonation" OnClientClick="return confirm('Are you sure you wish to revert your Impersonation credentials back to default?');" OnClick="ChangeImpersonationDefault_Click" Width="150px" />
-            <br />
-            <br />
-            <asp:Button CssClass="button" ID="Button1" runat="server" Text="Add Impersonation" OnClientClick="return confirm('Are you sure you wish to add Impersonation credentials?');" OnClick="AddImpersonation_Click" Width="150px" />
-            <br />
-            <br />
             <asp:Label runat="server" ID="lblinfoimpersonate" ForeColor="Red" Text="" />
             <br />
             <br />
@@ -206,16 +200,16 @@
                     </tr>
                     <tr>
                         <td style="text-align: center;" colspan="2">
-                            <h1>Update ASPX Credentials</h1>
+                            <h1>Update ASPXZipIt Credentials</h1>
                         </td>
                     </tr>
                     <tr>
-                        <td style="width: 50%; text-align: right; padding-right: 10px;">Impersonation Username:</td>
+                        <td style="width: 50%; text-align: right; padding-right: 10px;">New Username:</td>
                         <td style="width: 50%; text-align: left;">
                             <asp:TextBox ID="updateaspxcredsusername" runat="server"></asp:TextBox></td>
                     </tr>
                     <tr>
-                        <td style="width: 50%; text-align: right; padding-right: 10px;">Impersonation Passwd:</td>
+                        <td style="width: 50%; text-align: right; padding-right: 10px;">New Passwd:</td>
                         <td style="width: 50%; text-align: left;">
                             <asp:TextBox ID="updateaspxcredspasswd" runat="server"></asp:TextBox></td>
                     </tr>
@@ -227,7 +221,7 @@
             <br />
             <asp:Button CssClass="button" ID="addaspmembership" runat="server" Text="Add ASP Membership" OnClick="AddASPMembership_Click" Width="150px" />
             <br />
-            <asp:Button CssClass="button" ID="addaspmembershipauthenticaton" runat="server" Text="Add ASP Membership Authentication" OnClick="AddASPMembershipAuthentication_Click" Width="150px" />
+            <asp:Button CssClass="button" ID="addaspmembershipauthenticaton" runat="server" Text="Add ASP Membership Auth" OnClick="AddASPMembershipAuthentication_Click" Width="200px" />
             <br />
             <asp:Label runat="server" ID="lblinfoaspxcreds" ForeColor="Red" Text="" />
             <br />
