@@ -110,8 +110,6 @@
                         Width="150px" />
                     <br />
                     <br />
-                    <asp:Button CssClass="button" ID="btncfuploadtest"
-                        runat="server" Text="Test CF Upload" OnClick="btnCloudFilesUploadTest_Click" Width="150px" />
                 </div>
                 <font size="1em">ASPXZipit Backup provided by <a href="http://onesandzeros415.github.com/ASPXZipIt-NET35/"
                     target="_blank">Matthew Costello</a></font>
