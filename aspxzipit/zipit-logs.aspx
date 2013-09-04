@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="True" CodeBehind="zipit-logs.aspx.cs" Inherits="ASPXZipIt.Logs" %>
+﻿<%@ Page Language="C#" AutoEventWireup="True" CodeBehind="zipit-logs.aspx.cs" Inherits="ASPXZipIt.zipit_Logs" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>

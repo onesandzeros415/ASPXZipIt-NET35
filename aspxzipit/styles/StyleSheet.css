@@ -136,12 +136,6 @@ h1
     left: 24px;
 }
 
-@font-face
-{
-    font-family: Fontin;
-    src: url('../fonts/fontin.otf');
-}
-
 .head
 {
     text-align: center;

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="True" CodeBehind="zipit-db.aspx.cs" Inherits="ASPXZipIt.zipit_db2" %>
+﻿<%@ Page Language="C#" AutoEventWireup="True" CodeBehind="zipit-db.aspx.cs" Inherits="ASPXZipIt.zipit_DB" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -110,6 +110,8 @@
                         Width="150px" />
                     <br />
                     <br />
+                    <asp:Button CssClass="button" ID="btncfuploadtest"
+                        runat="server" Text="Test CF Upload" OnClick="btnCloudFilesUploadTest_Click" Width="150px" />
                 </div>
                 <font size="1em">ASPXZipit Backup provided by <a href="http://onesandzeros415.github.com/ASPXZipIt-NET35/"
                     target="_blank">Matthew Costello</a></font>
