@@ -50,7 +50,7 @@
                     <br />
                     <br />
                 </div>
-                <font size="1em">ASPXZipit Backup provided by <a href="http://onesandzeros415.github.com/ASPXZipIt-NET35/"
+                <font size="1em">ASPXZipit Backup .NET 3.5 provided by <a href="http://onesandzeros415.github.com/ASPXZipIt-NET35/"
                     target="_blank">Matthew Costello</a></font>
             </center>
         </div>
