@@ -14,6 +14,5 @@
         <asp:Login ID="Login1" DisplayRememberMe="false" DestinationPageUrl="~/aspxzipit/Default.aspx" runat="server"></asp:Login>
     </div>
     <asp:Label ID="result" runat="server"></asp:Label></>
-    <br />
     </center>
 </asp:Content>

@@ -15,16 +15,17 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="Body" runat="server">
     <center>
+    <asp:Label runat="server" ID="lblinfo" ForeColor="Red" Text="" />
+    <br /> 
     <h1>Rebuild Application</h1>
     <br />
     <asp:Button CssClass="button" ID="Button5" runat="server" Text="Rebuild Application" OnClick="Manual_RebuildApplication_Click" Width="150px" />
+    <br />
     <br />
     <asp:Label runat="server" ID="lblinforebuildapp" ForeColor="Red" Text="" />
     <br />
     <h1>CloudFiles API Information
     </h1>
-    <asp:Label runat="server" ID="lblinfo" ForeColor="Red" Text="" />
-
     <table>
         <tr>
             <td style="width: 50%; text-align: right; padding-right: 10px;">CloudFiles Username:</td>
@@ -78,10 +79,10 @@
     </table>
 
     <br />
-    <asp:Button CssClass="button" ID="btnchangeCloudFilesApi" runat="server" Text="Change Api Creds" OnClientClick="return confirm('Are you sure you wish to change your CloudFiles API Information?');" OnClick="ChangeCloudFilesApi_Click" Width="150px" />
+    <asp:Button CssClass="button" ID="btnchangeCloudFilesApi" runat="server" Text="Change Api Creds" OnClientClick="javascript:return confirmAction(this.name,'Are you sure you wish to revert your CloudFiles API Information? <br /> <br /> Please accept to continue.');" OnClick="ChangeCloudFilesApi_Click" Width="150px" />
     <br />
     <br />
-    <asp:Button CssClass="button" ID="btnresetCloudFilesApi" runat="server" Text="Default Api Creds" OnClientClick="return confirm('Are you sure you wish to revert your CloudFiles API Information back to default?');" OnClick="ChangeCloudFilesApiDefault_Click" Width="150px" />
+    <asp:Button CssClass="button" ID="btnresetCloudFilesApi" runat="server" Text="Default Api Creds" OnClientClick="javascript:return confirmAction(this.name,'Are you sure you wish to revert your CloudFiles API Information back to default?');" OnClick="ChangeCloudFilesApiDefault_Click" Width="150px" />
     <br />
     <asp:Label runat="server" ID="lblinfocfinfo" ForeColor="Red" Text="" />
     <br />
@@ -145,7 +146,7 @@
 
     </table>
     <br />
-    <asp:Button CssClass="button" ID="Button2" runat="server" Text="Update Impersonation" OnClientClick="return confirm('Are you sure you wish to update your Impersonation credentials?');" OnClick="ChangeImpersonation_Click" Width="150px" />
+    <asp:Button CssClass="button" ID="Button2" runat="server" Text="Update Impersonation" OnClientClick="javascript:return confirmAction(this.name,'Are you sure you wish to update your Impersonation credentials?');" OnClick="ChangeImpersonation_Click" Width="150px" />
     <br />
     <br />
     <asp:Label runat="server" ID="lblinfoimpersonate" ForeColor="Red" Text="" />
@@ -195,7 +196,7 @@
         </tr>
     </table>
     <br />
-    <asp:Button CssClass="button" ID="Button3" runat="server" Text="Update Password" OnClientClick="return confirm('Are you sure you wish to update your ASPXZipIt Credentials?');" OnClick="UpdateASPMembershipPasswd_Click" Width="150px" />
+    <asp:Button CssClass="button" ID="Button3" runat="server" Text="Update Password" OnClientClick="javascript:return confirmAction(this.name,'Are you sure you wish to update your ASPXZipIt Credentials?');" OnClick="UpdateASPMembershipPasswd_Click" Width="150px" />
     <br />
     <br />
     <asp:Label runat="server" ID="lblinfoaspxcreds" ForeColor="Red" Text="" />
@@ -203,7 +204,7 @@
     <br />
     <h1>Update ASPXZipIt</h1>
     <br />
-    <asp:Button CssClass="button" ID="btnUpdateAspx" runat="server" OnClientClick="return confirm('Are you sure you wish to update ASPXZipIt?');" Text="Update ASPXZipIt" OnClick="UpdateASPXZipIt_Click" Width="150px" />
+    <asp:Button CssClass="button" ID="btnUpdateAspx" runat="server" OnClientClick="javascript:return confirmAction(this.name,'Are you sure you wish to update ASPXZipIt?');" Text="Update ASPXZipIt" OnClick="UpdateASPXZipIt_Click" Width="150px" />
     <br />
     <br />
     <asp:Label runat="server" ID="lblupdateaspx" ForeColor="Red" Text="" />
@@ -211,7 +212,7 @@
     <br />
     <h1>Uninstall ASPXZipIt</h1>
     <br />
-    <asp:Button CssClass="button" ID="Button6" runat="server" Text="Uninstall ASPXZipIt" OnClientClick="return confirm('Are you sure you wish to uninstall ASPXZipIt permanently?');" OnClick="UninstallASPXZipIt_Click" Width="150px" />
+    <asp:Button CssClass="button" ID="Button6" runat="server" Text="Uninstall ASPXZipIt" OnClientClick="javascript:return confirmAction(this.name,'Are you sure you wish to uninstall ASPXZipIt permanently?');" OnClick="UninstallASPXZipIt_Click" Width="150px" />
     <br />
     <br />
     <asp:Label runat="server" ID="lblinfouninstallaspx" ForeColor="Red" Text="" />
